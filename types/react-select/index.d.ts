@@ -315,7 +315,7 @@ export interface ReactSelectProps<TValue = OptionValues> extends React.Props<Rea
     /**
      * method to filter the options array
      */
-    filterOptions?: FilterOptionsHandler<TValue>;
+    filterOptions?: boolean | FilterOptionsHandler<TValue>;
     /**
      * id for the underlying HTML input element
      * @default undefined
